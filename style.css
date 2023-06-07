@@ -1,0 +1,74 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;   
+    box-shadow: none;
+}
+
+img{
+    display:block;
+    margin: 15px auto;
+}
+
+p {
+    color:white;
+}
+
+body {
+    padding: 10px auto;
+    margin-top:10%;
+background-color: rgb(0, 0, 0);
+}
+
+#tudojunto {
+
+
+    padding-left: 40%;
+}
+
+button {
+
+    margin-left: 12.8%;
+    height: 40px;
+    width: 100px;
+background: #ff000d;
+
+border-radius: 10px;  
+color:white;
+}
+
+#resultado {
+
+    background-color:white;
+    margin-top: 10px;
+    margin-left: 16%;
+    width: 40px;
+    color:black;
+    text-align: center;
+}
+
+#soosinput {
+
+    display:inline-block;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:600px){
+
+
+    img {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+#tudojunto 
+    {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+}
